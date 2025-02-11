@@ -10,6 +10,9 @@
     }
     interface IShape
     {
+        //public IShape() // Interface can not have constructor
+        //{
+        //}
         void Draw();  // By default public abstract method
     }
 
