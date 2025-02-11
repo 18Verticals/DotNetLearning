@@ -9,6 +9,8 @@
         {
             int i = 5;
 
+            // B b = new A(); // Not possible 
+           
             A a = new B();
             a.Abc(i); // O/P : Abc from A
 
