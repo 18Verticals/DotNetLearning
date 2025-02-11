@@ -1,5 +1,8 @@
 ﻿namespace Test
 {
+    /// <summary>
+    /// This is test program
+    /// </summary>
     internal class Program
     {
         static void Main(string[] args)
