@@ -93,7 +93,7 @@
         {
             int salary = Experience * 50000;
 
-            Console.WriteLine("Upcasting CalculateSal:{0} ", salary);
+            Console.WriteLine("Upcasting(override) CalculateSal:{0} ", salary);
         }
 
         public void EmpName()
@@ -117,7 +117,7 @@
         {
             int salary = Experience * 100000;
 
-            Console.WriteLine("downcasting CalculateSal:{0} ", salary);
+            Console.WriteLine("downcasting(override) CalculateSal:{0} ", salary);
         }
 
         public void EmpName()

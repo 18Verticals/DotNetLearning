@@ -1,4 +1,6 @@
-﻿namespace Polymorphism
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Polymorphism
 {
     /// <summary>
     /// Polymorphism is the ability of a variable,object, or function to take on MULTIPLE FORMS.
@@ -18,9 +20,14 @@
 
             DerivedClass objDerived = new DerivedClass();
             objDerived.Greetings();
+
+            Console.ReadLine();
         }
     }
     // overloading
+
+    //Method overloading is a type of polymorphism in which we can create multiple methods of the same name in the
+    //same class, and all methods work in different ways.
     public class Polymorphism
     {
         public int Add(int a, int b)
@@ -35,6 +42,15 @@
     }
 
     // overriding
+
+    //Method overriding is creating a method in the DERIVED class with the
+    //SAME NAME and SIGNATURE as a method in the base class.
+
+    //Overriding uses VIRTUAL keyword for base class method and OVERRIDE keyword for derived class method.
+
+    //Overriding virtual method is optional.
+
+    //Overriding is used to modify and provide a new implementation of the method inherited from a base class.
     public class BaseClass
     {
         public virtual void Greetings()

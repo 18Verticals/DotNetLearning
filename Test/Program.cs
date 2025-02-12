@@ -16,6 +16,8 @@
 
             B b = new B();
             b.Abc(i); // O/P : Abc from B
+
+            Console.ReadLine();
         }
     }
     class A

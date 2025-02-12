@@ -7,6 +7,12 @@ namespace AbstractionUsingAbstractClass
     /// Can achive using abstact class and interface
     /// This example using Abstract class
     /// </summary>
+
+    //Abstract class is a good choice when you are sure some methods are concrete/defined
+    //and must be implemented in the SAME WAY in all derived classes.
+
+    //Normally prefer Interface because it gives us the flexibility to modify the behavior at later stage.
+
     class Program // internal class access inside same Assembly(project) not another Assembly
     {
         static void Main(string[] args)
