@@ -10,18 +10,16 @@
                 new Employee(){ Id = 1, Name="Bill" },
                 new Employee(){ Id = 2, Name="Steve" }
             };
-
             foreach (var employee in employees)
             {
                 Console.WriteLine(employee.Id + ", " + employee.Name);
             }
-
             Console.ReadLine();
         }
     }
     public class Employee
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string? Name { get; set; }
     }
 }

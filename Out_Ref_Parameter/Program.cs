@@ -20,19 +20,15 @@ namespace Out_Ref_Parameter
         static void Main(string[] args)
         {
             int a; //No need to initialize out parameter before passing it
-
             int b = 5; //Must initialize ref parameter else error
 
             WithRefOut obj = new WithRefOut();
-
             int x = obj.Update(out a, ref b);
-
             Console.WriteLine(x);
 
             Console.ReadLine();
         }
     }
-
     public class WithRefOut
     {
         public int Update(out int c, ref int d)

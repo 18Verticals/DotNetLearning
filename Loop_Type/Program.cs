@@ -10,44 +10,32 @@ namespace Loop_Type
             int i = 0;
             while (i < 5)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(i); //Output: 0 1 2 3 4
                 i++;
-            }
-
-            //Output: 0 1 2 3 4
-
+            } 
 
             //Do While
             //Whether condition true or false, this statement will run at least first time
             int j = 100;
             do
             {
-                Console.WriteLine(j);
+                Console.WriteLine(j); //Output: 100
                 j++;
             }
             while (j < 10);
-            //Output: 100
-
 
             //For Loop
             for (int k = 0; k < 5; k++)
             {
-                Console.WriteLine(k);
+                Console.WriteLine(k); //Output: 0 1 2 3 4
             }
-
-            //Output: 0 1 2 3 4
-
 
             //ForEach Loop
-
             int[] arr = new int[] { 1, 2, 3, 4 };
-
             foreach (int items in arr)
             {
-                Console.WriteLine(items);
+                Console.WriteLine(items); //Output: 1 2 3 4
             }
-
-            //Output: 1 2 3 4
 
             Console.ReadLine();
         }

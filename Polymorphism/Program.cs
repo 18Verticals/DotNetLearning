@@ -11,11 +11,8 @@ namespace Polymorphism
         static void Main(string[] args)
         {
             Polymorphism obj = new Polymorphism();
-
             int i = obj.Add(10, 20);
-
             string str = obj.Add("Interview", "Happy");
-
             Console.WriteLine(i + " - " + str);
 
             DerivedClass objDerived = new DerivedClass();
@@ -34,7 +31,6 @@ namespace Polymorphism
         {
             return a + b;
         }
-
         public string Add(string str1, string str2)
         {
             return str1 + str2;
@@ -47,9 +43,7 @@ namespace Polymorphism
     //SAME NAME and SIGNATURE as a method in the base class.
 
     //Overriding uses VIRTUAL keyword for base class method and OVERRIDE keyword for derived class method.
-
     //Overriding virtual method is optional.
-
     //Overriding is used to modify and provide a new implementation of the method inherited from a base class.
     public class BaseClass
     {

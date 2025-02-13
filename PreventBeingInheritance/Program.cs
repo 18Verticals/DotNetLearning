@@ -8,7 +8,7 @@
         }
     }
 
-    public sealed class Employee //Using sealed keyword can not use inheritace concept
+    public sealed class Employee //Using sealed keyword can not use Inheritance concept
     {
         public int Experience { get; set; }
 
@@ -20,7 +20,7 @@
         }
     }
 
-    //public class PermanentEmployee : Employee //not possible inheritace cos of sealed keyword
+    //public class PermanentEmployee : Employee //not possible Inheritance cos of sealed keyword
     //{
 
     //}

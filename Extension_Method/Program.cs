@@ -7,19 +7,14 @@
         static void Main(string[] args)
         {
             string test = "HelloWorld";
-
             string left = test.Substring(0, 5);
-
             Console.WriteLine(left); // Hello
 
             string right = test.RightSubstring(5);
-
             Console.WriteLine(right); // World
-
             Console.ReadLine();
         }
     }
-
     public static class StringExtensions
     {
         public static string RightSubstring(this String s, int count)

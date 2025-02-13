@@ -17,14 +17,12 @@
         {
             Console.WriteLine("BaseClass Hello!");
         }
-
         //override
         public virtual void Greetings()
         {
             Console.WriteLine("BaseClass Hello!");
         }        
     }
-
     public class DerivedClass : BaseClass
     {
         // hiding
@@ -32,14 +30,12 @@
         {
             Console.WriteLine("DerivedClass Hello!");
         }
-
         //override
         public override void Greetings()
         {
             Console.WriteLine("DerivedClass Hello!");
         }      
     }
-
     internal class Program
     {
         static void Main(string[] args)
@@ -47,7 +43,6 @@
             BaseClass objDerived = new DerivedClass();
             objDerived.Greetings(); //override
             objDerived.GreetingsBase(); // hiding 
-
             Console.ReadLine();
         }
     }

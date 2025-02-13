@@ -36,7 +36,6 @@ namespace AbstractionUsingAbstractClass
     public abstract class Vehicle  // Abstract class
     {
         public abstract void Start(); // Abstract method (no body) , Background/hidden 
-
         public void DisplayType()  // Concrete method (has body)
         {
             Console.WriteLine("This is a Vehicle.");

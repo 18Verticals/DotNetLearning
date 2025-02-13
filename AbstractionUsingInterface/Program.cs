@@ -20,7 +20,6 @@
         //}
         void Draw();  // By default public abstract method
     }
-
     public class Circle : IShape
     {
         public void Draw()

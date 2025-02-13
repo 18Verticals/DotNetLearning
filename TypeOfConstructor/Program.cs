@@ -30,7 +30,6 @@
         }
     }
 
-
     //PARAMETERIZED CONSTRUCTOR - A constructor with at least one parameter is a parameterized constructor.
     public class ParaConstructor
     {
@@ -48,13 +47,11 @@
         {
             Console.WriteLine("Static Constructor Invoked");
         }
-
         public static void Print()
         {
             Console.WriteLine("Static Print method called");
         }
     }
-
 
     // 	PRIVATE CONSTRUCTOR - When a constructor is created with a private specifier,
     // 	it is not possible for other classes to derive from this class,
@@ -81,7 +78,6 @@
         {
             this.name = name;
         }
-
         //Copy Constructor
         public CopyConstructor(CopyConstructor copy)
         {

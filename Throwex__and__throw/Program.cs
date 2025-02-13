@@ -21,7 +21,6 @@
                 Console.WriteLine(ex.StackTrace);
             }
         }
-
         public static void DivideZerobyZero()
         {
             try
@@ -32,7 +31,6 @@
             catch (Exception ex)
             {
                 //throw ex;  // Resets the stack trace to this line
-
                 throw; // Re-throws the original exception
             }
         }

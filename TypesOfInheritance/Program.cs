@@ -25,7 +25,6 @@
     }
 
     //Multiple Inheritance - In this case Multiple Base classes can be there for single derived class.
-
     class BaseClass2
     {
         public void Animal()
@@ -55,7 +54,6 @@
 
     //Grandparent class -> Parent class -> Child class
     //Here the Child class will get the properties of both Parent class and GrandParent class automatically.
-
     class BaseClass3 
     {
         public void Animal()
@@ -80,7 +78,6 @@
 
     // 	Hierarchal inheritance - In this type of inheritance, multiple child classes are derived from a single base class.
     // 	This is the most used type of inheritance.        
-
     class BaseClass4
     {
         public void Animal()
@@ -88,7 +85,6 @@
             Console.WriteLine("Animal");
         }
     }
-
     class DerivedClass5 : BaseClass4
     {
         public void Dog()
