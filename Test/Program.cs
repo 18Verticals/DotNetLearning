@@ -8,7 +8,6 @@
         static void Main(string[] args)
         {
             int i = 5;
-
             // B b = new A(); // Not possible because child to parent accessing
            
             A a = new B();
@@ -16,6 +15,8 @@
 
             B b = new B();
             b.Abc(i); // O/P : Abc from B
+
+            Console.ReadLine();
         }
     }
     class A
